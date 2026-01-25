@@ -8,7 +8,7 @@ const morgan = require('morgan');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const SECRET_KEY = "biocube_secret_key_change_this"; // In prod, use env var
+const SECRET_KEY = "29f1507d30a50e8305661931fcb9d466"; // In prod, use env var
 
 // --- MIDDLEWARE ---
 app.use(cors());
